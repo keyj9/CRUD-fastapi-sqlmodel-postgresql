@@ -1,0 +1,14 @@
+asgiref==3.5.0
+click==8.1.2
+colorama==0.4.4
+greenlet==1.1.2
+h11==0.13.0
+pydantic==1.9.0
+SQLAlchemy==1.4.35
+sqlalchemy2-stubs==0.0.2a14
+sqlmodel==0.0.6
+starlette==0.19.0
+typing-extensions==4.1.1
+uvicorn==0.17.6
+psycopg2-binary==2.9.3
+sqlalchemy_utils
