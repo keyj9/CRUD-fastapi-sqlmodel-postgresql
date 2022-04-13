@@ -25,6 +25,7 @@ Run:
 <li> docker run -it --rm --network=55 postgres psql -h db54 -U postgres </li>  
 <li> create database sqlmodeldb;</li>
 <li> \q</li>
+<li> python3 create_database.py</li>
 <li>uvicorn main:app --reload</li>
 </ul><br />
 ## TODO 
