@@ -20,7 +20,7 @@ Build on **Python: 3.9**.
 
 Create env from template: ```cp example.env .env``` (only once)    
 Run: 
-<li> pip install -r requirements.txt </li>
+<li> poetry install </li>
 <li> docker network create db55</li>
 <li> docker run -d --name db54 -p 5432:5432 --network=db55 -e POSTGRES_PASSWORD=password postgres -d postgres </li>
 <li> docker run -it --rm --network=db55 postgres psql -h db54 -U postgres </li>  
