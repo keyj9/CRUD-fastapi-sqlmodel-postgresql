@@ -29,7 +29,7 @@ Run:
 </ul><br />
 ## TODO 
 
-> Example is completely and works very well. In the future probably I add more.
+> Example is complete
 
 - Branche for MongoDB
 - More examples with custom response models 
