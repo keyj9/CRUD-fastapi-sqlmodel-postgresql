@@ -20,9 +20,9 @@ Build on **Python: 3.9**.
 
 - Create env from template: ```cp example.env .env``` (only once)    
 - <ul>Run: 
-<li>- docker network create db55</li>
-<li>- docker run -d --name db54 -p 5432:5432 --network=db55 -e POSTGRES_PASSWORD=password postgres -d postgres:alpine </li>
-<li>- docker run -it --rm --network=55 postgres:alpine psql -h db54 -U postgres </li>  
+<li> docker network create db55</li>
+<li> docker run -d --name db54 -p 5432:5432 --network=db55 -e POSTGRES_PASSWORD=password postgres -d postgres:alpine </li>
+<li> docker run -it --rm --network=55 postgres:alpine psql -h db54 -U postgres </li>  
 </ul><br />
 ## TODO 
 
