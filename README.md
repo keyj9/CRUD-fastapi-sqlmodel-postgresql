@@ -25,7 +25,7 @@ Run:
 <li> docker run -it --rm --network=55 postgres:alpine psql -h db54 -U postgres </li>  
 <li> create database sqlmodeldb;</li>
 <li> \q</li>
-<li>uvicorn app:main --reload</li>
+<li>uvicorn main:app --reload</li>
 </ul><br />
 ## TODO 
 
